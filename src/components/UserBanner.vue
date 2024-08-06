@@ -73,7 +73,6 @@
   height: 100%;
   object-fit: cover;
 }
-.bx {
-  font-size: 20px;
-}
+
+
 </style>

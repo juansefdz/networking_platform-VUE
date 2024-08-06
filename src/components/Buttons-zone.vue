@@ -50,6 +50,7 @@ export default {
 .button-container {
   display: flex;
   align-items: center;
+  gap: 5px;
 }
 
 .container-buttons button {
