@@ -14,24 +14,26 @@
 </template>
 
 <script>
-import { ref } from "vue";
-
 export default {
-  setup() {
-    const selectedButton = ref(0);
-    const buttons = ref([
+  props: {
+    selectedButton: {
+      type: Number,
+      required: true,
+    },
+  },
+  setup(props, { emit }) {
+    const buttons = [
       { label: "Profile", icon: "bx bxs-user" },
       { label: "Team", icon: "bx bx-group" },
       { label: "Projects", icon: "bx bx-spreadsheet" },
       { label: "Connections", icon: "bx bx-at" },
-    ]);
+    ];
 
     const selectButton = (index) => {
-      selectedButton.value = index;
+      emit("update:selectedButton", index);
     };
 
     return {
-      selectedButton,
       buttons,
       selectButton,
     };
@@ -42,7 +44,7 @@ export default {
 <style scoped>
 .container-buttons {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   margin-top: 20px;
   align-items: center;
 }
@@ -50,7 +52,6 @@ export default {
 .button-container {
   display: flex;
   align-items: center;
-  gap: 5px;
 }
 
 .container-buttons button {

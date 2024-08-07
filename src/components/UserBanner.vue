@@ -7,11 +7,14 @@
           <img src="/src/assets/images/user.png" alt="" srcset="" />
         </div>
         <div class="user-info-container">
-          <h2>John Doe</h2>
+          <h1>John Doe</h1>
           <div class="user-info">
-            <i class="bx bx-code-alt">Coder</i>
-            <i class="bx bx-map">Medellín</i>
-            <i class="bx bx-calendar">Joined 2024</i>
+            <i class="bx bx-code-alt"></i>
+            <h4>Coder</h4>
+            <i class="bx bx-map"></i>
+            <h4>Medellín</h4>
+            <i class="bx bx-calendar"></i>
+            <h4>Joined 2024</h4>
           </div>
         </div>
       </div>
@@ -50,7 +53,6 @@
   flex-direction: row;
   align-items: center;
   gap: 20px;
-  
 }
 .info-user-container {
   display: flex;
@@ -73,6 +75,4 @@
   height: 100%;
   object-fit: cover;
 }
-
-
 </style>

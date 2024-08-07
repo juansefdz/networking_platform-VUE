@@ -1,26 +1,26 @@
 <template>
-    <header class="header">
-      <div class="header-container">
-        <div class="logo">
-          <img src="/src/assets/images/social-media.png" alt="" />
-        </div>
-  
-        <div class="search-bar">
-          <i class="bx bx-search"></i>
-          <input type="text" placeholder="Search..." />
-        </div>
-  
-        <div class="user-profile">
-          <i class='bx bxs-grid'></i>
-          <i class="bx bx-bell"></i>
-          <i class="bx bx-sun"></i>
-          <div class="user-pic">
-            <img src="/src/assets/images/user.png" alt="" />
-          </div>
+  <header class="header">
+    <div class="header-container">
+      <div class="logo">
+        <img src="/src/assets/images/social-media.png" alt="" />
+      </div>
+
+      <div class="search-bar">
+        <i class="bx bx-search"></i>
+        <input type="text" placeholder="Search..." />
+      </div>
+
+      <div class="user-profile">
+        <i class="bx bxs-grid"></i>
+        <i class="bx bx-bell"></i>
+        <i class="bx bx-sun"></i>
+        <div class="user-pic">
+          <img src="/src/assets/images/user.png" alt="" />
         </div>
       </div>
-    </header>
-  </template>
+    </div>
+  </header>
+</template>
 
 <script></script>
 
@@ -74,6 +74,6 @@
   margin-left: 10px;
 }
 .bx {
-  font-size: 20px; 
+  font-size: 20px;
 }
 </style>
