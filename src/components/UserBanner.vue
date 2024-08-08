@@ -10,12 +10,14 @@
           <h1>John Doe</h1>
           <div class="user-info">
             <i class="bx bx-code-alt"></i>
-            <h4>Coder</h4>
+            <p>Coder</p>
             <i class="bx bx-map"></i>
-            <h4>Medellín</h4>
+            <p>Medellín</p>
             <i class="bx bx-calendar"></i>
-            <h4>Joined 2024</h4>
+            <p>Joined 2024</p>
+            <button class="button-status"> <i class='bx bx-user-check'></i> connected</button>
           </div>
+          
         </div>
       </div>
     </div>
@@ -57,7 +59,10 @@
 .info-user-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
   padding: 20px;
+  margin: 10px;
+  gap:10px; 
 }
 
 .user-picture {
@@ -74,5 +79,18 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.button-status{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  #780b74;;
+  color: white;
+  border: none;
+  gap: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  
 }
 </style>
