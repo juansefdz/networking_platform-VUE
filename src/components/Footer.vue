@@ -11,9 +11,9 @@
 <style scoped>
 .footer {
   display: flex;
+  position: absolute;
   background-color: #e2e2e2;
   width: 70vw;
-  margin-top: 20px;
   height: 100px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   border-radius: 5px;

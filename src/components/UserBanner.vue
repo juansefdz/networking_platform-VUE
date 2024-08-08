@@ -31,7 +31,7 @@
   height: 400px;
   flex-direction: column;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 20px;
   justify-content: center;
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
@@ -45,7 +45,7 @@
     rgba(0, 212, 255, 1) 100%
   );
   height: 50%;
-  margin-top: 0px;
+  margin-top: -40px;
   border-radius: 5px;
 }
 .user-info {

@@ -20,11 +20,12 @@ export default {
 <style scoped>
 .main-container {
   display: flex;
+  position: relative;
   width: 70vw;
-  height: 100vh;
+  height:auto;
   flex-direction: column;
   margin-top: 20px;
   border-radius: 5px;
-  background-color: rgb(255, 255, 255);
+ 
 }
 </style>
