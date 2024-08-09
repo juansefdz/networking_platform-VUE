@@ -1,0 +1,124 @@
+[
+    {
+      "title": "React Developers",
+      "description": "Specializes in building dynamic and interactive user interfaces with React.",
+      "profiles": [
+        {
+          "name": "John Doe",
+          "role": "Frontend Developer"
+        }
+      ],
+      "technologies": ["React", "TypeScript", "Redux"]
+    },
+    {
+      "title": "Vue Developers",
+      "description": "Experts in creating single-page applications using Vue.js.",
+      "profiles": [
+        {
+          "name": "Jane Smith",
+          "role": "Backend Developer"
+        }
+      ],
+      "technologies": ["Vue", "Vuex", "Axios"]
+    },
+    {
+      "title": "Angular Team",
+      "description": "Focused on building scalable and maintainable web applications with Angular.",
+      "profiles": [
+        {
+          "name": "Michael Johnson",
+          "role": "Full Stack Developer"
+        }
+      ],
+      "technologies": ["Angular", "RxJS", "NgRx"]
+    },
+    {
+      "title": "Node.js Experts",
+      "description": "Building high-performance server-side applications using Node.js.",
+      "profiles": [
+        {
+          "name": "Emily Davis",
+          "role": "Backend Engineer"
+        }
+      ],
+      "technologies": ["Node.js", "Express", "MongoDB"]
+    },
+    {
+      "title": "Python Devs",
+      "description": "Developing robust applications using Python and its frameworks.",
+      "profiles": [
+        {
+          "name": "Sarah Lee",
+          "role": "Data Scientist"
+        }
+      ],
+      "technologies": ["Python", "Django", "Flask"]
+    },
+    {
+      "title": "Java Developers",
+      "description": "Creating enterprise-level applications using Java technologies.",
+      "profiles": [
+        {
+          "name": "David Brown",
+          "role": "Java Developer"
+        }
+      ],
+      "technologies": ["Java", "Spring Boot", "Hibernate"]
+    },
+    {
+      "title": "PHP Team",
+      "description": "Specializing in server-side scripting and dynamic web pages using PHP.",
+      "profiles": [
+        {
+          "name": "Laura Wilson",
+          "role": "Web Developer"
+        }
+      ],
+      "technologies": ["PHP", "Laravel", "MySQL"]
+    },
+    {
+      "title": "Ruby on Rails",
+      "description": "Building web applications with Ruby on Rails framework.",
+      "profiles": [
+        {
+          "name": "James Harris",
+          "role": "Full Stack Developer"
+        }
+      ],
+      "technologies": ["Ruby", "Rails", "PostgreSQL"]
+    },
+    {
+      "title": "Swift Developers",
+      "description": "Creating iOS applications using Swift and Xcode.",
+      "profiles": [
+        {
+          "name": "Alice Martinez",
+          "role": "iOS Developer"
+        }
+      ],
+      "technologies": ["Swift", "Xcode", "UIKit"]
+    },
+    {
+      "title": "C# Developers",
+      "description": "Developing applications with C# and .NET technologies.",
+      "profiles": [
+        {
+          "name": "Robert Clark",
+          "role": "Software Engineer"
+        }
+      ],
+      "technologies": ["C#", ".NET", "Azure"]
+    },
+    {
+      "title": "Go Language Team",
+      "description": "Building concurrent and high-performance applications using Go.",
+      "profiles": [
+        {
+          "name": "Olivia Walker",
+          "role": "Go Developer"
+        }
+      ],
+      "technologies": ["Go", "Gin", "Docker"]
+    }
+  ]
+  

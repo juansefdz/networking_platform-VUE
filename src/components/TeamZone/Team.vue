@@ -1,8 +1,8 @@
 <template>
   <div class="team-container">
     <TeamCard
-      v-for="(team, index) in teams"
-      :key="index"
+      v-for="team in teams"
+      :key="team.id" 
       :title="team.title"
       :description="team.description"
       :profiles="team.profiles"
@@ -20,20 +20,23 @@ export default {
   },
   data() {
     return {
-      teams: [
-        {
-          title: 'React Developers',
-          description: 'lorem ipsum',
-          profiles: [
-            {
-              name: 'John Doe',
-              role: 'Frontend Developer',
-            }],
-          technologies: ['React', 'TypeScript']
-        }
-        
-      ]
+      teams: []
     }
+  },
+  created(){
+    this.loadTeams();
+  },
+  methods: {
+      async loadTeams(){
+        try{
+          const response = await fetch('/assets/db/teams/teams.json');
+          const data = await response.json();
+          this.teams = data;
+        } catch(error){
+          console.error("error loading teams",error);
+        }
+      }
+    
   }
 }
 </script>

@@ -6,7 +6,7 @@
         <div class="user-picture">
           <img src="/src/assets/images/user.png" alt="" srcset="" />
         </div>
-        <div class="user-info-container">
+        <div class="info-container">
           <h1>John Doe</h1>
           <div class="user-info">
             <i class="bx bx-code-alt"></i>
@@ -15,7 +15,7 @@
             <p>Medellín</p>
             <i class="bx bx-calendar"></i>
             <p>Joined 2024</p>
-            <button class="button-status"> <i class='bx bx-user-check'></i> connected</button>
+            <button class="button-status"> <i class='bx bx-user-plus'></i> Connect</button>
           </div>
           
         </div>
@@ -51,10 +51,18 @@
   border-radius: 5px;
 }
 .user-info {
+  width: 100%;
   display: flex;
+  justify-content: start;
   flex-direction: row;
   align-items: center;
   gap: 20px;
+  
+}
+
+.user-info button:last-child{
+  margin-left: auto;
+
 }
 .info-user-container {
   display: flex;
@@ -79,6 +87,12 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.info-container{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
 }
 .button-status{
   display: flex;
