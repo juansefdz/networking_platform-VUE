@@ -34,7 +34,7 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 ```
 4. Instalar Dependencias:
   ```bash
-    cd tu_repositorio
+    cd ubicación_repositorio
     npm install
   ```
 5. Si quieres instalar el preprocesador SASS tienes que escribir en consola el siguiente comando:
