@@ -14,16 +14,16 @@ import ButtonsZone from "@/components/Buttons-zone.vue";
 import MainZone from "@/components/Main-zone.vue";
 import Profile from '@/components/ProfileZone/Profile.vue';
 import Team from '@/components/TeamZone/Team.vue';
-import Projects from '@/components/Projects.vue';
-import Connections from '@/components/Connections.vue';
 import Footer from '@/components/Footer.vue';
+import ConnectionsUsers from '@/components/ConnectionZone/ConnectionUsers.vue';
+import ProjectsZone from '@/components/ProjectsZone/Projects.vue';
 
 const selectedButton = ref(0);
 const buttons = ref([
   { label: 'Profile', component: Profile },
   { label: 'Team', component: Team},
-  { label: 'Projects', component: Projects },
-  { label: 'Connections', component: Connections }
+  { label: 'Projects', component: ProjectsZone },
+  { label: 'Connections', component: ConnectionsUsers }
 ]);
 
 const updateSelectedButton = (index) => {

@@ -94,5 +94,18 @@
         "./src/assets/images/user4.jpg"
       ],
       "technologies": ["Ruby", "Rails", "PostgreSQL"]
+    },
+    {
+      "title": "Swift Developers",
+      "logo": "./src/assets/images/swift.jpg",
+      "description": "Creating iOS applications using Swift and Xcode.",
+      "team": [
+        "./src/assets/images/user1.jpg",
+        "./src/assets/images/user2.jpg",
+        "./src/assets/images/user3.jpg",
+        "./src/assets/images/user4.jpg"
+      ],
+      "technologies": ["Swift", "Xcode", "UIKit"]
     }
   ]
+  

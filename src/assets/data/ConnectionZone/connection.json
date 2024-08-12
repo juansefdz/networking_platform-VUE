@@ -1,0 +1,42 @@
+[
+    {
+      "name": "Mark Gilbert",
+      "role": "UI Designer",
+      "avatar": "./src/assets/images/user2.jpg",
+      "tags": ["Figma", "Sketch"],
+      "projects": 18,
+      "tasks": 834,
+      "connections": 129,
+      "connected": true
+    },
+    {
+      "name": "Eugenia Parsons",
+      "role": "Developer",
+      "avatar": "./src/assets/images/user1.jpg",
+      "tags": ["Angular", "React"],
+      "projects": 112,
+      "tasks": 2.3,
+      "connections": 1.28,
+      "connected": false
+    },
+    {
+      "name": "Francis Byrd",
+      "role": "Developer",
+      "avatar": "./src/assets/images/user3.jpg",
+      "tags": ["HTML", "React"],
+      "projects": 32,
+      "tasks": 1.25,
+      "connections": 890,
+      "connected": false
+    },
+    {
+      "name": "Judis priest",
+      "role": "UX/UI Designer",
+      "avatar": "./src/assets/images/user4.jpg",
+      "tags": ["Figma", "Sketch", "Photoshop"],
+      "projects": 86,
+      "tasks": 12.4,
+      "connections": 890,
+      "connected": false
+    }
+  ]

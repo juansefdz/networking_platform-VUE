@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Social Banners",
+    "client": "Client: Envato Market",
+
+    "budget": 204.8,
+    "totalBudget": 610.26,
+    "startDate": "14/5/21",
+    "deadline": "25/5/21",
+    "description": "We are Creating Software Development and Web Development Services.",
+    "allHours": "380/244",
+    "progress": 75,
+    "timeLeft": "28 Days left",
+    "team": [
+      "./src/assets/images/user1.jpg",
+      "./src/assets/images/user2.jpg",
+      "./src/assets/images/user3.jpg"
+    ],
+    "tasks": 45,
+    "comments": 12
+  },
+  {
+    "name": "Admin Template",
+    "client": "Client: Envato Market",
+
+    "budget": 62.4,
+    "totalBudget": 91.88,
+    "startDate": "18/8/21",
+    "deadline": "21/9/21",
+    "description": "Time is our most valuable asset, that's why we want to help you save it by creating.",
+    "allHours": "98/135",
+    "progress": 47,
+    "timeLeft": "15 Days left",
+    "team": [
+      "./src/assets/images/user1.jpg",
+      "./src/assets/images/user2.jpg",
+      "./src/assets/images/user3.jpg"
+    ],
+    "tasks": 23,
+    "comments": 8
+  },
+  {
+    "name": "App Design",
+    "client": "Client: Envato Market",
+
+    "budget": 2880,
+    "totalBudget": 3520,
+    "startDate": "24/7/21",
+    "deadline": "15/12/21",
+    "description": "App design combines the user interface (UI) and user experience (UX).",
+    "allHours": "880/421",
+    "progress": 66,
+    "timeLeft": "45 Days left",
+    "team": [
+      "./src/assets/images/user1.jpg",
+      "./src/assets/images/user2.jpg",
+      "./src/assets/images/user3.jpg",
+      "./src/assets/images/user4.jpg"
+    ],
+    "tasks": 36,
+    "comments": 15
+  },
+  {
+    "name": "Create Website",
+    "client": "Client: Envato Market",
+
+    "budget": 42.5,
+    "totalBudget": 75.25,
+    "startDate": "10/8/21",
+    "deadline": "15/11/21",
+    "description": "Your domain name should reflect your products or services so that your...",
+    "allHours": "880/421",
+    "progress": 60,
+    "timeLeft": "28 Days left",
+    "team": [
+      "./src/assets/images/user1.jpg",
+      "./src/assets/images/user2.jpg",
+      "./src/assets/images/user3.jpg",
+      "./src/assets/images/user4.jpg"
+    ],
+    "tasks": 30,
+    "comments": 10
+  },
+  {
+    "name": "Figma Dashboard",
+    "client": "Client: Tony Soprano",
+
+    "budget": 952.74,
+    "totalBudget": 1270.5,
+    "startDate": "22/7/21",
+    "deadline": "25/10/21",
+    "description": "Use this template to organize your design project. Some of the key features are...",
+    "allHours": "420/380",
+    "progress": 35,
+    "timeLeft": "5 Days left",
+    "team": [
+      "./src/assets/images/user1.jpg",
+      "./src/assets/images/user3.jpg",
+      "./src/assets/images/user4.jpg"
+    ],
+    "tasks": 25,
+    "comments": 7
+  },
+  {
+    "name": "Logo Design",
+    "client": "Client: Envato Market",
+    "budget": 1.12,
+    "totalBudget": 4.85,
+    "startDate": "17/8/21",
+    "deadline": "22/11/21",
+    "description": "Premium logo designs created by top logo designers. Create the branding of business.",
+    "allHours": "580/445",
+    "progress": 90,
+    "timeLeft": "4 Days left",
+    "team": [
+      "./src/assets/images/user1.jpg",
+     "./src/assets/images/user4.jpg"],
+    "tasks": 40,
+    "comments": 18
+  }
+]

@@ -55,7 +55,7 @@ export default {
 .team-card-title {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   background-color: #ffffff;
   border-radius: 10px 10px 0 0;
   font-weight: 200;
@@ -82,6 +82,7 @@ export default {
 
 .team-card-content {
   padding: 10px;
+  
 }
 
 .team-card-content p {
@@ -91,8 +92,8 @@ export default {
 
 .profiles-zone {
   display: flex;
-  gap: 10px;
-  height: 100px;
+  margin-top: 10px;
+  
 }
 
 .team-profile-image {
