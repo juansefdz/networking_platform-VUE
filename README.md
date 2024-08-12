@@ -2,7 +2,7 @@
 
 # Proyecto Vue.js
 
-Este proyecto es una aplicación construida con Vue.js que incluye funcionalidades para manejar conexiones y proyectos. Utiliza un enfoque modular con componentes para la interfaz de usuario y datos estáticos para demostrar las funcionalidades, se realizó con el fin de estudiar VUE.
+Este proyecto es una aplicación construida con Vue.js que incluye funcionalidades para manejar profile, team, project y connections. Utiliza un enfoque modular con componentes para la interfaz de usuario y datos estáticos para demostrar las funcionalidades, se realizó con el fin de estudiar VUE.
 
 ## Estructura del Proyecto
 
