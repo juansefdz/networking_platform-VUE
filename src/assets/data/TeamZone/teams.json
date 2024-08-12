@@ -1,124 +1,98 @@
 [
     {
       "title": "React Developers",
+      "logo": "./src/assets/images/react.png",
       "description": "Specializes in building dynamic and interactive user interfaces with React.",
-      "profiles": [
-        {
-          "name": "John Doe",
-          "role": "Frontend Developer"
-        }
-      ],
+      "team": [
+      "./src/assets/images/user1.jpg",
+      "./src/assets/images/user2.jpg",
+      "./src/assets/images/user3.jpg",
+      "./src/assets/images/user4.jpg"
+    ],
       "technologies": ["React", "TypeScript", "Redux"]
     },
     {
       "title": "Vue Developers",
+      "logo": "./src/assets/images/vue.png",
       "description": "Experts in creating single-page applications using Vue.js.",
-      "profiles": [
-        {
-          "name": "Jane Smith",
-          "role": "Backend Developer"
-        }
+      "team": [
+        "./src/assets/images/user1.jpg",
+        "./src/assets/images/user2.jpg",
+        "./src/assets/images/user3.jpg",
+        "./src/assets/images/user4.jpg"
       ],
       "technologies": ["Vue", "Vuex", "Axios"]
     },
     {
       "title": "Angular Team",
+      "logo": "./src/assets/images/Angular.png",
       "description": "Focused on building scalable and maintainable web applications with Angular.",
-      "profiles": [
-        {
-          "name": "Michael Johnson",
-          "role": "Full Stack Developer"
-        }
+      "team": [
+        "./src/assets/images/user1.jpg",
+        "./src/assets/images/user2.jpg",
+        "./src/assets/images/user3.jpg",
+        "./src/assets/images/user4.jpg"
       ],
       "technologies": ["Angular", "RxJS", "NgRx"]
     },
     {
       "title": "Node.js Experts",
+      "logo": "./src/assets/images/node.png",
       "description": "Building high-performance server-side applications using Node.js.",
-      "profiles": [
-        {
-          "name": "Emily Davis",
-          "role": "Backend Engineer"
-        }
+      "team": [
+        "./src/assets/images/user1.jpg",
+        "./src/assets/images/user2.jpg",
+        "./src/assets/images/user3.jpg",
+        "./src/assets/images/user4.jpg"
       ],
       "technologies": ["Node.js", "Express", "MongoDB"]
     },
     {
       "title": "Python Devs",
+      "logo": "./src/assets/images/python.png",
       "description": "Developing robust applications using Python and its frameworks.",
-      "profiles": [
-        {
-          "name": "Sarah Lee",
-          "role": "Data Scientist"
-        }
+      "team": [
+        "./src/assets/images/user1.jpg",
+        "./src/assets/images/user2.jpg",
+        "./src/assets/images/user3.jpg",
+        "./src/assets/images/user4.jpg"
       ],
       "technologies": ["Python", "Django", "Flask"]
     },
     {
       "title": "Java Developers",
+      "logo": "./src/assets/images/java.png",
       "description": "Creating enterprise-level applications using Java technologies.",
-      "profiles": [
-        {
-          "name": "David Brown",
-          "role": "Java Developer"
-        }
+      "team": [
+        "./src/assets/images/user1.jpg",
+        "./src/assets/images/user2.jpg",
+        "./src/assets/images/user3.jpg",
+        "./src/assets/images/user4.jpg"
       ],
       "technologies": ["Java", "Spring Boot", "Hibernate"]
     },
     {
       "title": "PHP Team",
+      "logo": "./src/assets/images/php.png",
       "description": "Specializing in server-side scripting and dynamic web pages using PHP.",
-      "profiles": [
-        {
-          "name": "Laura Wilson",
-          "role": "Web Developer"
-        }
+      "team": [
+        "./src/assets/images/user1.jpg",
+        "./src/assets/images/user2.jpg",
+        "./src/assets/images/user3.jpg",
+        "./src/assets/images/user4.jpg"
       ],
       "technologies": ["PHP", "Laravel", "MySQL"]
     },
     {
       "title": "Ruby on Rails",
+      "logo": "./src/assets/images/ruby.png",
       "description": "Building web applications with Ruby on Rails framework.",
-      "profiles": [
-        {
-          "name": "James Harris",
-          "role": "Full Stack Developer"
-        }
+      "team": [
+        "./src/assets/images/user1.jpg",
+        "./src/assets/images/user2.jpg",
+        "./src/assets/images/user3.jpg",
+        "./src/assets/images/user4.jpg"
       ],
       "technologies": ["Ruby", "Rails", "PostgreSQL"]
-    },
-    {
-      "title": "Swift Developers",
-      "description": "Creating iOS applications using Swift and Xcode.",
-      "profiles": [
-        {
-          "name": "Alice Martinez",
-          "role": "iOS Developer"
-        }
-      ],
-      "technologies": ["Swift", "Xcode", "UIKit"]
-    },
-    {
-      "title": "C# Developers",
-      "description": "Developing applications with C# and .NET technologies.",
-      "profiles": [
-        {
-          "name": "Robert Clark",
-          "role": "Software Engineer"
-        }
-      ],
-      "technologies": ["C#", ".NET", "Azure"]
-    },
-    {
-      "title": "Go Language Team",
-      "description": "Building concurrent and high-performance applications using Go.",
-      "profiles": [
-        {
-          "name": "Olivia Walker",
-          "role": "Go Developer"
-        }
-      ],
-      "technologies": ["Go", "Gin", "Docker"]
     }
   ]
-  
