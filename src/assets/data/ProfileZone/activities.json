@@ -1,0 +1,21 @@
+[
+    {
+      "time": "12 min ago",
+      "activity": "12 Invoices have been paid",
+      "description": "Invoices have been paid to the company",
+      "link": "#",
+      "linkText": "invoice.pdf"
+    },
+    {
+      "time": "45 min ago",
+      "activity": "Client Meeting",
+      "description": "Project meeting with John @10:15am",
+      "client": "Lester McCarthy (Client)"
+    },
+    {
+      "time": "2 Days Ago",
+      "activity": "Create a new project for client",
+      "description": "6 team members in a project"
+    }
+  ]
+  

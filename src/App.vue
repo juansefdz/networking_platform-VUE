@@ -12,7 +12,7 @@ import Header from "@/components/Header.vue";
 import UserBanner from "@/components/UserBanner.vue";
 import ButtonsZone from "@/components/Buttons-zone.vue";
 import MainZone from "@/components/Main-zone.vue";
-import Profile from '@/components/Profile.vue';
+import Profile from '@/components/ProfileZone/Profile.vue';
 import Team from '@/components/TeamZone/Team.vue';
 import Projects from '@/components/Projects.vue';
 import Connections from '@/components/Connections.vue';

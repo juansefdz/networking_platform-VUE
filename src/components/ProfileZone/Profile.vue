@@ -1,25 +1,49 @@
 <template>
   <div class="profile-container">
     <div class="left-container">
-      <div class="about-container"></div>
-      <div class="overview-container"></div>
+      <About />
+      <Overview />
     </div>
     <div class="right-container">
-      <div class="Activity-tl-container"></div>
-      <div class="networking-container">
-        <div class="connection-container"></div>
-        <div class="teams-container"></div>
-      </div>
-      <div class="projects-container"></div>
+      <ActivityTimeline :activities="activities" />
+      <Networking :connections="connections" :teams="teams" />
+      <ProjectsList :projects="projects" />
     </div>
   </div>
 </template>
 
 <script>
+import About from '@/components/ProfileZone/About.vue';
+import Overview from '@/components/ProfileZone/Overview.vue';
+import ActivityTimeline from '@/components/ProfileZone/ActivityTimeline.vue';
+import Networking from '@/components/ProfileZone/Networking.vue';
+import ProjectsList from '@/components/ProfileZone/ProjectList.vue';
+
+import activitiesData from '@/assets/data/ProfileZone/activities.json';
+import connectionData from '@/assets/data/ProfileZone/connections.json';
+import teamsData from '@/assets/data/ProfileZone/teams.json';
+import projectStatusData from '@/assets/data/ProfileZone/projectStatus.json';
+
 export default {
   name: "Profile",
+  components: {
+    About,
+    Overview,
+    ActivityTimeline,
+    Networking,
+    ProjectsList,
+  },
+  data() {
+    return {
+      activities: activitiesData,
+      connections: connectionData ,
+      teams: teamsData,
+      projects: projectStatusData,
+    };
+  },
 };
 </script>
+
 
 <style>
 .profile-container {
@@ -29,10 +53,10 @@ export default {
   position: relative;
   flex-direction: row;
   border-radius: 10px;
-  /* background-color: red; */
   gap: 20px;
   padding: 10px;
 }
+
 .left-container {
   width: 30%;
   height: auto;
@@ -43,24 +67,25 @@ export default {
   gap: 20px;
   /* background-color: blue; */
 }
-.about-container {
-  width: 100%;
-  height: 600px;
+
+.about-name,
+.about-status,
+.about-role,
+.about-location,
+.about-language,
+.about-phone,
+.about-skype,
+.about-email {
   display: flex;
-  position: relative;
-  flex-direction: column;
-  border-radius: 10px;
-  background-color: rgb(255, 255, 255);
+  flex-direction: row;
+  gap: 10px;
+  margin: 10px;
+  align-items: center;
+  justify-content: left;
 }
-.overview-container {
-  width: 100%;
-  height: 200px;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  border-radius: 10px;
-  background-color: rgb(255, 255, 255);
-}
+
+
+
 .right-container {
   width: 70%;
   height: 100%;
@@ -117,4 +142,5 @@ export default {
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
 }
+
 </style>

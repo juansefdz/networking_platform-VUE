@@ -29,7 +29,7 @@ export default {
   methods: {
       async loadTeams(){
         try{
-          const response = await fetch('/assets/db/teams/teams.json');
+          const response = await fetch('/assets/db/teams.json');
           const data = await response.json();
           this.teams = data;
         } catch(error){
