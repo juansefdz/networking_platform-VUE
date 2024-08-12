@@ -1,33 +1,47 @@
 [
-    {
-      "name": "BGC eCommerce App",
-      "leader": "Eileen",
-      "team": "React Project",
-      "progress": "78%"
-    },
-    {
-      "name": "Falcon Logo Design",
-      "leader": "Owen",
-      "team": "Figma Project",
-      "progress": "25%"
-    },
-    {
-      "name": "Dashboard Design",
-      "leader": "Keith",
-      "team": "Vue Project",
-      "progress": "62%"
-    },
-    {
-      "name": "Foodista mobile App",
-      "leader": "Merline",
-      "team": "Xamarin Project",
-      "progress": "8%"
-    },
-    {
-      "name": "Dojo Email App",
-      "leader": "Harmonia",
-      "team": "Python Project",
-      "progress": "51%"
-    }
-  
-  ]
+  {
+    "name": "BGC eCommerce App",
+    "icon":"./src/assets/images/logo1.png",
+    "leader": "Eileen",
+    "team": [
+      "./src/assets/images/user1.jpg",
+      "./src/assets/images/user2.jpg",
+      "./src/assets/images/user3.jpg",
+      "./src/assets/images/user4.jpg"
+    ],
+    "progress": "78"
+  },
+  {
+    "name": "Falcon Logo Design",
+    "icon":"./src/assets/images/logo2.png",
+    "leader": "Owen",
+    "team": ["./src/assets/images/user1.jpg", "./src/assets/images/user2.jpg"],
+    "progress": "25"
+  },
+  {
+    "name": "Dashboard Design",
+    "icon":"./src/assets/images/logo3.png",
+    "leader": "Keith",
+    "team": ["./src/assets/images/user3.jpg", "./src/assets/images/user4.jpg"],
+    "progress": "62"
+  },
+  {
+    "name": "Foodista mobile App",
+    "icon":"./src/assets/images/logo4.png",
+    "leader": "Merline",
+    "team": ["./src/assets/images/user3.jpg"],
+    "progress": "8"
+  },
+  {
+    "name": "Dojo Email App",
+    "icon":"./src/assets/images/logo5.png",
+    "leader": "Harmonia",
+    "team": [
+      "./src/assets/images/user1.jpg",
+      "./src/assets/images/user2.jpg",
+      "./src/assets/images/user3.jpg",
+      "./src/assets/images/user4.jpg"
+    ],
+    "progress": "51"
+  }
+]

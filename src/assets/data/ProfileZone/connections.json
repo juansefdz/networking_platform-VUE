@@ -1,11 +1,13 @@
 [
     {
       "name": "Cecilia Payne",
-      "connections": "45 Connections"
+      "connections": "45 Connections",
+      "avatar: ": "./src/assets/images/user3.jpg"
     },
     {
       "name": "Curtis Fletcher",
-      "connections": "1.2k Connections"
+      "connections": "1.2k Connections",
+       "avatar: ": "./src/assets/images/user2.jpg"
     }
   ]
   

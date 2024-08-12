@@ -1,11 +1,13 @@
 [
     {
       "name": "React Developers",
-      "members": "72 Members"
+      "members": "72 Members",
+      "icon":"./src/assets/images/logo2.png"
     },
     {
       "name": "Support Team",
-      "members": "122 Members"
+      "members": "122 Members",
+      "icon":"./src/assets/images/logo1.png"
     }
   ]
   
