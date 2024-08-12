@@ -2,43 +2,17 @@
 
 # Proyecto Vue.js
 
-Este proyecto es una aplicación construida con Vue.js que incluye funcionalidades para manejar conexiones y proyectos. Utiliza un enfoque modular con componentes para la interfaz de usuario y datos estáticos para demostrar las funcionalidades.
+Este proyecto es una aplicación construida con Vue.js que incluye funcionalidades para manejar conexiones y proyectos. Utiliza un enfoque modular con componentes para la interfaz de usuario y datos estáticos para demostrar las funcionalidades, se realizó con el fin de estudiar VUE.
 
 ## Estructura del Proyecto
 
-El proyecto está dividido en dos secciones principales: **Conexiones** y **Proyectos**. Cada sección tiene su propio conjunto de componentes y estilos.
+El proyecto está dividido en cuatro secciones principales: **Profile**,**Teams**,**Projects** y **Connections**. Cada sección tiene su propio conjunto de componentes y estilos.
 
-### Conexiones
-
-La sección de **Conexiones** muestra una lista de conexiones con información como avatar, nombre, rol, etiquetas, y estadísticas. Los componentes de esta sección permiten al usuario conectar o enviar mensajes a otros.
-
-**Componentes:**
-- `Connections.vue` - Componente principal para mostrar la lista de conexiones.
-
-**Características:**
-- **Avatares**: Imágenes de perfil para cada conexión.
-- **Etiquetas**: Etiquetas asociadas a cada conexión.
-- **Estadísticas**: Información sobre proyectos, tareas y conexiones.
-- **Botones**: Botones para conectar o enviar un mensaje.
 
 **Datos:**
-- Los datos se cargan desde un archivo JSON estático (`connection.json`) ubicado en `@/assets/data/ConnectionZone/`.
+- Los datos se cargan desde un archivo JSON según la vista.
 
-### Proyectos
 
-La sección de **Proyectos** muestra una lista de proyectos con información sobre el cliente, presupuesto, fechas, y progreso. Esta sección permite visualizar detalles del proyecto, como el porcentaje de progreso y el equipo involucrado.
-
-**Componentes:**
-- `Projects.vue` - Componente principal para mostrar la lista de proyectos.
-
-**Características:**
-- **Iconos de Proyecto**: Iconos representativos de cada proyecto.
-- **Detalles del Proyecto**: Información sobre presupuesto, fechas de inicio y vencimiento.
-- **Barra de Progreso**: Muestra el progreso del proyecto.
-- **Miembros del Equipo**: Imágenes de los miembros del equipo involucrados en el proyecto.
-
-**Datos:**
-- Los datos se cargan desde un archivo JSON estático (`project.json`) ubicado en `@/assets/data/ProjectZone/`.
 
 ## Instalación
 
