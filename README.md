@@ -20,7 +20,7 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
 1. **Clonar el Repositorio**:
     ```bash
-    git clone https://github.com/tu_usuario/tu_repositorio.git
+    git clone https://github.com/juansefdz/networking_platform-VUE.git
     ```
 2. Debes instalar vue CLI en tu maquina
 
