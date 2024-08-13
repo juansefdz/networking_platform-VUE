@@ -120,9 +120,11 @@ export default {
   color: white;
   
   &.connected {
-    background-color: #6366f1;
-    color: #333;
+    background-color: #780B74;
+    color: #ffffff;
+    
   }
+  
 }
 
 .message-btn {

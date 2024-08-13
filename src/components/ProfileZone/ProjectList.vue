@@ -90,9 +90,9 @@ export default {
   },
   methods: {
     getProgressColor(progress) {
-      if (progress < 30) return "#ff4d4f";
-      if (progress < 70) return "#faad14";
-      return "#52c41a";
+      if (progress < 30) return "#db15d5";
+      if (progress < 70) return "#ab10a6";
+      return "#780B74";
     },
   },
 };
@@ -105,6 +105,7 @@ export default {
   border-radius: 10px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
 
   .project-header {
     display: flex;

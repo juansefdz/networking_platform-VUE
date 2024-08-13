@@ -99,13 +99,13 @@ export default {
   flex-shrink: 0;
 
   &.invoice {
-    background-color: #7367f0;
+    background-color: #780B74;
   }
   &.meeting {
-    background-color: #00cfe8;
+    background-color: #780B74;
   }
   &.project {
-    background-color: #28c76f;
+    background-color: #780B74;
   }
 }
 

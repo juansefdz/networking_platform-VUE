@@ -8,8 +8,9 @@
             <h3>{{ project.name }}</h3>
             <p>{{ project.client }}</p>
           </div>
-          <button class="more-btn">...</button>
+          <button class="more-btn"><i class="bx bx-dots-vertical"></i></button>
         </div>
+
         <div class="project-details">
           <div class="budget">
             <span class="amount">${{ project.budget }}</span>
@@ -21,18 +22,20 @@
           </div>
         </div>
         <p class="project-description">{{ project.description }}</p>
+
         <div class="project-stats">
+          
           <div class="hours">All Hours: {{ project.allHours }}</div>
+
           <div class="progress-bar">
             <div
               class="progress"
               :style="{ width: project.progress + '%' }"
             ></div>
           </div>
-          <div class="time-left" :class="getTimeLeftClass(project.timeLeft)">
-            {{ project.timeLeft }} left
-          </div>
+          <div class="time-left">{{ project.timeLeft }} left</div>
         </div>
+
         <div class="team">
           <img
             v-for="member in project.team.slice(0, 3)"
@@ -45,6 +48,7 @@
             >+{{ project.team.length - 3 }}</span
           >
         </div>
+
         <div class="project-footer">
           <span class="tasks">{{ project.tasks }} tasks</span>
           <button class="comments-btn">
@@ -105,8 +109,14 @@ export default {
 
   .progress {
     height: 100%;
-    background-color: #4caf50;
+    background-color: #780B74;
   }
+}
+.project-stats {
+  margin-top: 15px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .team {
@@ -139,16 +149,22 @@ export default {
   justify-content: space-between;
   margin-top: 1rem;
 }
+.comments-btn,
+.more-btn {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #333;
+  transition: background-color 0.3s;
 
-.time-left {
-  &.green {
-    color: #4caf50;
-  }
-  &.yellow {
-    color: #ffc107;
-  }
-  &.red {
-    color: #f44336;
+  &:hover {
+    background-color: #e0e0e0;
   }
 }
 </style>
